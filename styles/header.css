@@ -60,7 +60,10 @@
     display: none;
     
 }
+.opções{
+    display: none;
 
+}
 @media screen and (min-width: 1024px){
     .container__titulo{
         font-family: var(--fonte-secundaria);
@@ -73,5 +76,26 @@
         font-weight: 700;
 
     }
+}
+.opções{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+opções__item{
+
+   padding: 0 1em; 
+}
+.opções__link{
+    text-decoration: none;
+    color: black;
+
+}
+.container__imagem--transparente{
+    display: none;
+}
+.opções__botão{
     
 }
+
+
